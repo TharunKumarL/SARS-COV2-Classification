@@ -1,0 +1,4 @@
+sars-cov2 - 22,000
+hcov-ov4 - 6199
+mers-cov - 9734
+Human coronavirus 229E - 2744
