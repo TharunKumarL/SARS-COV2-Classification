@@ -1,0 +1,18 @@
+In Dataset We firstly Collected 5 types of protein sequences including sars covid 
+sars cov 2 labelled as 1
+and rest labelled as 2
+
+sars-cov2 - 10841
+sars-cov - 35
+hcov-oc43 - 2913
+mers-cov - 3609
+Human coronavirus 229E - 1107
+
+Now I created Adjacency Matrix and Feautre Matrix for each sequence 
+And Performed Graph Convolution Network (according to gcn.png)
+created feaute vector for each sequence stored in protein_feautres.npy  (gcn.py)
+
+Now I classified the feautre vectors into two classes using k means clustering (clustering_labels.py)
+
+validate is for perform validation (validate.py)
+
