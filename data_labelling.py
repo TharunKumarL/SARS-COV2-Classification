@@ -28,6 +28,9 @@ for file_name, label in file_labels.items():
 # Convert to DataFrame
 df = pd.DataFrame(data, columns=["Sequence_ID", "Protein_Sequence", "Label"])
 
+# Randomize the dataset
+df = df.sample(frac=1).reset_index(drop=True)
+
 # Save to CSV
 df.to_csv("labeled_protein_sequences.csv", index=False)
 print("CSV file saved as labeled_protein_sequences.csv")
