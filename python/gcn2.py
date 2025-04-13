@@ -8,7 +8,7 @@ import os
 amino_acid_smiles = {
     'A': 'CC(C(=O)O)N',             # Alanine
     'C': 'C(C(=O)O)N',              # Cysteine
-    'D': 'CC(C(=O)O)N',             # Aspartic Acid
+    'D': 'CC(C(=O)O)N',             # Aspartic Acidre
     'E': 'CCC(C(=O)O)N',            # Glutamic Acid
     'F': 'C1=CC=C(C=C1)CC(C(=O)O)N',# Phenylalanine
     'G': 'C(C(=O)O)N',              # Glycine
