@@ -2,4 +2,4 @@ sars-cov2 - 10841
 sars-cov - 35
 hcov-oc43 - 2913
 mers-cov - 3609
-Human coronavirus 229E - 1107
+humancoronavirus229e - 1107
